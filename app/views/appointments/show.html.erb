@@ -1,0 +1,5 @@
+<h3> Patient: <a href="/patients/<%= @appointment.patient_id %>"><%= @appointment.patient.name %></a> </h3>
+
+<h3> Doctor: <a href="/doctors/<%= @appointment.doctor_id %>"><%= @appointment.doctor.name %></a> </h3>
+
+<h3> <%= @appointment.date_display %> </h3>
